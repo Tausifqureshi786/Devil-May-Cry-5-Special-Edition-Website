@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: grey;
+}
+
+h1{
+    width:500px;
+    border: 10px solid white;
+    /* margin-top: 350px; */
+    font-size: 40px;
+}
+
+
+
+.hero{
+    
+    text-align: left;
+    width:100%;
+    height: 100%;
+    padding: 1rem 0  0 5rem;
+    background-image: url("./Images/dmx2.jpg");
+    background-repeat: no-repeat;
+
+    background-size: 100% ;
+    
+}
+
+.cartBtn{
+    border: 1px solid white;
+
+    text-align: center;
+    width: 250px;
+    /* height: 10px; */
+    padding: 10px 50px;
+    font-size: x-large;
+    background: red;
+}
+
+.cartBtn:hover{
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    /* height: 500px; */
+}
+
+li{
+    width: 200px;
+    margin: 10px 50px 10px 0px;
+    /* margin-bottom: 10px;
+    margin-right: 50px; */
+
+}
+
+.content{
+    width: 500px;
+    /* line-height: 50px; */
+}
+
+h2{
+    font-size: 35px;
+    /* margin-left: 0px; */
+}
+
+.plot {
+    padding:100px;
+    width:55%;
+    background: black;
+}
+
+.overview{
+    display:flex;
+    margin-top:0px;
+
+}
+/* *{
+    border: 1px solid blue;
+} */
+
+
+.overview-title {
+    width:3000px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.overview-title-text{
+    width: 70%;
+    font-size: 50px;
+    margin-top:10px;
+    margin-left: 80px;
+    padding: 0px 20px 20px 0px;
+}
+.overview-content{
+    /* text-align: =; */
+    background: black;
+}
+.overview-text{
+    margin-bottom:0px ;
+    margin-left: 80px;
+}
+.overview-content p{
+    
+    padding-left: 10px;
+}
+
+.key-features{
+    padding: 2rem 0 5rem 0; 
+    /* padding-bottom: 10rem ; */
+    padding-left: 80px;
+    background:#a9a9a9  ;
+}
+
+.key-features img{
+    width: 300px;
+    height: 170px;
+}
+
+.k-features{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-style: bold;
+}
+/* 
+*{
+    border: 1px solid blue;
+} */
+
+.features-col{
+    
+    margin:10px;
+    padding:10px
+}
+
+.ps5-features{
+    background: black;
+    color: white;
+}
+
+.feature-ps5Title{
+    text-align: center;
+}
+
+.feature-ps5Title h2{
+    margin:0px;
+    padding:80px
+}
+
+.ps5{
+    column-count: 2;
+    display: flex;
+    padding-bottom: 3rem;;
+    /* padding-left:25%; */
+    /* text-align: center; */
+    /* width: 10000px; */
+    /* margin-left: auto; */
+
+}
+
+.ps5 ul{
+    width: 100%;
+}
+
+.ps5 li{
+    width: 600px;
+    /* padding-left:250px; */
+}
+
+.ul-1{
+    padding-left:120px
+}
+
+.footer-btm{
+
+    padding: 30px 10px 0px 170px;
+    display: flex;
+}
+
+footer{
+    background: darkblue;
+    padding: 1rem 0 2rem 0;
+}
+
+.footer-btm li{
+    display: flex;
+    text-decoration: none;
+}
+
+.ps5-logo{
+    margin-bottom: 20px;
+    width: 96px;
+    height: 96px;
+}
+.logo-images{
+    /* margin-right: 200px; */
+}
+
+.SIE-logo{
+    width: 140px;
+    height: 60px;
+}
+
+.country{
+    margin-bottom: 200px;
+}
+
+.ul-no-1{
+    /* margin-left: 100px; */
+}
+.space{
+    width: 500px;
+}
